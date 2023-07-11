@@ -7,7 +7,7 @@ plot_dQdV <- function(echem,cycleno){
   # plot--------
   plot(0,0,type='n',xaxs='i',yaxs='i',
        xlim=c(2,5),
-       ylim=c(-400,400),
+       #ylim=c(-400,400),
        #ylim=c(-1000,1000),
        xlab=expression(paste('Voltage vs. Li/Li'^'+', '(V)')),
        ylab = 'dQ/dV')
