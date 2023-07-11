@@ -70,7 +70,7 @@ ui <- fluidPage(
             tags$hr(),
             sliderInput("increment",
                         label = "Range of Increment in dQ/dV Stack:",
-                        min = 0, max = 50, value = 5),
+                        min = 0, max = 5000, value = 5),
             strong("Save the dQdV Stack Figure"),
             downloadButton("dQdV_figure", "Download"),
 
